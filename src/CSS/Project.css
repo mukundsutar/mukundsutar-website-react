@@ -1,23 +1,36 @@
 .project-container {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;
 
-    height: 500px;
+    height: max-content;
 
     width: 80%;
     margin: 50px 10%;
+    margin-bottom: 5%;
 
     font-size: 25px;
+    color: #ef8354;
 }
 
 .project-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-    height: max-content;
-    width: max-content;
+    /* height: max-content; */
+    width: 100%;
 
     margin: 0px;
     padding: 0px;
+}
+
+.project-btn-show-more{
+    width: 15%;
+    height: 30px;
+
+    margin: 0px 42.5%;
+
+    font-size: 17px;
 }

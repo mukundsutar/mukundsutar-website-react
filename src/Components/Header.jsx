@@ -5,12 +5,12 @@ export default function Header() {
 	return (
 		<>
 			<div className="navbar-container">
-				<div className="navbar-ele">Home</div>
-				<div className="navbar-ele">About Me</div>
-				<div className="navbar-ele">Skills</div>
-				<div className="navbar-ele">Resume</div>
-				<div className="navbar-ele">Projects</div>
-				<div className="navbar-ele">Contact</div>
+				<div className="navbar-ele header-button">Home</div>
+				<div className="navbar-ele header-button">About Me</div>
+				<div className="navbar-ele header-button">Skills</div>
+				<div className="navbar-ele header-button">Resume</div>
+				<div className="navbar-ele header-button">Projects</div>
+				<div className="navbar-ele header-button">Contact</div>
 			</div>
 		</>
 	);

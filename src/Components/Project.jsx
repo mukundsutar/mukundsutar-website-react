@@ -12,7 +12,11 @@ export default function Project() {
 					<Card />
 					<Card />
 					<Card />
+					<Card />
+					<Card />
 				</div>
+                
+				<button className="project-btn-show-more">Show More</button>
 			</div>
 		</>
 	);

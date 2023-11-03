@@ -16,10 +16,7 @@ export default function Card() {
 					<div className="card-title">Title</div>
 
 					<div className="card-desc">
-						Lorem ipsum dolor sit, amet consectetur adipisicing
-						elit. Minus, ab. Repellendus dolorum asperiores sapiente
-						libero! Inventore laudantium rem doloribus deleniti
-						reprehenderit dignissimos autem aliquid possimus.
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, provident?
 					</div>
 				</div>
 			</div>
