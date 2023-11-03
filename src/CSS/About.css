@@ -1,0 +1,9 @@
+.about-container {
+    display: flex;
+
+    width: 80%;
+    
+    margin: 50px 10%;
+
+    font-size: 30px;
+}

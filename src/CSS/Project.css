@@ -1,0 +1,23 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    height: 500px;
+
+    width: 80%;
+    margin: 50px 10%;
+
+    font-size: 25px;
+}
+
+.project-list {
+    display: flex;
+
+    height: max-content;
+    width: max-content;
+
+    margin: 0px;
+    padding: 0px;
+}

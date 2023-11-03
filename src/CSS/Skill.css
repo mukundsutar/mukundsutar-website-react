@@ -1,0 +1,13 @@
+.skill-container{
+
+    width: 80%;
+
+    margin: 50px 10%;
+
+    font-size: 25px;
+}
+
+.skill-ele {
+    display: flex;
+    font-size: 20px;
+}
