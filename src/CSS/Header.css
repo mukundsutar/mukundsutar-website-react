@@ -21,6 +21,17 @@
     height: 20px;
     width: 100px;
 
-    margin: 30px;
+    margin: 20px;
     padding: 10px;
+}
+
+.navbar-ele a{
+    text-decoration: none;
+    color: #e6e6e9;
+}
+
+.navbar-container a{
+    max-height: 100px;
+
+    text-decoration: none;
 }

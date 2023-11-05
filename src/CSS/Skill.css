@@ -4,10 +4,12 @@
 
     margin: 50px 10%;
 
-    font-size: 25px;
+    font-size: 40px;
+    color: #ef8354;;
 }
 
 .skill-ele {
     display: flex;
     font-size: 20px;
+    color: initial;
 }

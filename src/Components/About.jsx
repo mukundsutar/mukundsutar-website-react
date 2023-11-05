@@ -4,16 +4,17 @@ import "../CSS/About.css";
 export default function About() {
 	return (
 		<>
-			<div className="about-container">
+			<div id="about" className="about-container">
 				<p>
-					Hello there! I am Mukund Sutar. Working with my hands to
-					make magic happen on the internet.
+					Hello there! I'm Mukund Sutar, a passionate Developer with a
+					deep love for DSA. When I'm not immersed in code, you'll
+					often find me exploring the captivating worlds of Sci-fi
+					movies, taking on the role of a part-time gamer, and
+					indulging in my other great love - all things automotive.
 					<br />
-					<br />
-					Front-End Dev, DSA enthusiast, when I'm not coding, you can
-					find me enjoying Sci-fi movies, part-timer gamer, and also
-					referred as Car guy. I am a Software Engineer from Pune,
-					India.
+					Based in Pune, India, I'm a dedicated Software Engineer on a
+					mission to craft digital experiences that delight and
+					inspire.
 				</p>
 			</div>
 		</>

@@ -23,7 +23,7 @@ export default function Skill() {
 
 	return (
 		<>
-			<div className="skill-container">
+			<div id="skill" className="skill-container">
 				What I know:
 				<br />
 				<div className="skill-ele">

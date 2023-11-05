@@ -5,9 +5,10 @@ import profilePhoto from "../img/MyPhoto2.avif";
 export default function Profile() {
 	return (
 		<>
-			<div className="profile-container">
+			<div id="profile" className="profile-container">
 				<div className="profile-name">
-					Hi, <br />I am Mukund Sutar
+					Hi I am, <br />
+					<span>Mukund Sutar</span>
 				</div>
 
 				<img className="profile-photo" src={profilePhoto} alt="" />

@@ -4,7 +4,7 @@ import "../CSS/Contact.css";
 export default function Contact() {
 	return (
 		<>
-			<div className="contact-container">
+			<div id="contact" className="contact-container">
                 Contact Me:
 				<div className="contact-ele contact-phone">
 					Phone: 8275812026
