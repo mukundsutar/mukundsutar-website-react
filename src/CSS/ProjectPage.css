@@ -1,0 +1,26 @@
+.project-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    height: max-content;
+
+    width: 80%;
+    margin: 50px 10%;
+    margin-bottom: 5%;
+
+    font-size: 40px;
+    color: #ef8354;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin: 0px;
+    padding: 0px;
+}

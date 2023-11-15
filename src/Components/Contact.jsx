@@ -6,7 +6,7 @@ export default function Contact() {
 		<>
 			<div id="contact" className="contact-container">
                 Contact Me:
-				<div className="contact-ele contact-phone">
+				<div className="contact-ele contact-phone" onClick={() => {navigator.clipboard.writeText(this.state.textToCopy)}}>
 					Phone: 8275812026
 				</div>
 
