@@ -1,15 +1,19 @@
 import React from "react";
 import "../CSS/Card.css";
 import cardPreview from "../img/projectPreview.jpeg";
+import pinpong from "../img/project/Ping Pong Game.png";
 
-export default function Card() {
+export default function Card({photo, text}) {
+
+	console.log(photo);
+
 	return (
 		<>
 			<div className="card-container">
 				<img
 					className="card-ele card-preview"
-					src={cardPreview}
-					alt=""
+					src={photo}
+					alt={text}
 				/>
 
 				<div className="card-ele card-info">

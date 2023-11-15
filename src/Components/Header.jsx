@@ -11,7 +11,9 @@ export default function Header() {
 				{/* <a href="/website">
 					<div className="navbar-ele header-button">Home</div>
 				</a> */}
-					<HashLink smooth to="#"><div className="navbar-ele header-button">Home</div></HashLink>
+				<HashLink smooth to="#">
+					<div className="navbar-ele header-button">Home</div>
+				</HashLink>
 
 				<HashLink smooth to="#about">
 					<div className="navbar-ele header-button">About Me</div>

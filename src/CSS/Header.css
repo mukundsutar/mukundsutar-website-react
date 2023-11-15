@@ -25,12 +25,12 @@
     padding: 10px;
 }
 
-.navbar-ele a{
+.navbar-ele a {
     text-decoration: none;
     color: #e6e6e9;
 }
 
-.navbar-container a{
+.navbar-container a {
     max-height: 100px;
 
     text-decoration: none;
