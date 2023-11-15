@@ -8,9 +8,6 @@ export default function Header() {
 	return (
 		<>
 			<div className="navbar-container">
-				{/* <a href="/website">
-					<div className="navbar-ele header-button">Home</div>
-				</a> */}
 				<HashLink smooth to="#">
 					<div className="navbar-ele header-button">Home</div>
 				</HashLink>

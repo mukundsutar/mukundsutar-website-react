@@ -3,7 +3,7 @@ import "../CSS/Card.css";
 import cardPreview from "../img/projectPreview.jpeg";
 import pinpong from "../img/project/Ping Pong Game.png";
 
-export default function Card({photo, text}) {
+export default function Card({photo, text, title, skill}) {
 
 	console.log(photo);
 
@@ -17,10 +17,10 @@ export default function Card({photo, text}) {
 				/>
 
 				<div className="card-ele card-info">
-					<div className="card-title">Title</div>
+					<div className="card-title">{title}</div>
 
 					<div className="card-desc">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, provident?
+						{skill}
 					</div>
 				</div>
 			</div>

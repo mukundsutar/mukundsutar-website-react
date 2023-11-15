@@ -2,52 +2,24 @@ import React from "react";
 import "../CSS/Project.css";
 import Card from "./Card";
 import { NavLink } from "react-router-dom";
-import movieArchive from "../img/project/FilmPedia - Movie Database.png";
-import pokedex from "../img/project/Pokedex.png";
-import tictactoe from "../img/project/Tic Tac Toe.png";
-import wordle from "../img/project/Wordle-Clone.png";
-import pinpong from "../img/project/Ping Pong Game.png";
-import uselessfacts from "../img/project/Useless Facts.jpeg";
 
-export default function Project() {
-	const projectImageArray = [
-		{
-			photo: movieArchive,
-			text: "movieArchive",
-		},
-		{
-			photo: pokedex,
-			text: "pokedex",
-		},
-		{
-			photo: tictactoe,
-			text: "tictactoe",
-		},
-		{
-			photo: wordle,
-			text: "wordle",
-		},
-		{
-			photo: pinpong,
-			text: "pinpong",
-		},
-		{
-			photo: uselessfacts,
-			text: "uselessfacts",
-		},
-	];
-
+export default function Project({ projectImageArray }) {
 	return (
 		<>
 			<div id="project" className="project-container">
 				Projects that I made:
 				<div className="project-list">
-					{projectImageArray.map((ele, index) => (
-						<Card photo={ele.photo} text={ele.text} key={index} />
+					{projectImageArray.slice(0, 6).map((ele, index) => (
+						<Card
+							photo={ele.photo}
+							text={ele.text}
+							key={index}
+							title={ele.title}
+							skill={ele.skill}
+						/>
 					))}
 				</div>
 				<NavLink to="/projects">
-					{/* <button className="project-btn-show-more">Show More</button> */}
 					<button class="button">
 						<svg
 							class="svg-icon"
