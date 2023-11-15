@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.3e98fb31.css",
-    "main.js": "/website/static/js/main.9e63b679.js",
+    "main.css": "/website/static/css/main.55cabd7c.css",
+    "main.js": "/website/static/js/main.4c5314be.js",
     "static/media/Pokedex.png": "/website/static/media/Pokedex.0d575c37eb62de6c682b.png",
-    "static/media/Mukund Sutar_Resume.pdf": "/website/static/media/Mukund Sutar_Resume.8fb2b65c304b295a63f7.pdf",
+    "static/media/Mukund Sutar_Resume.pdf": "/website/static/media/Mukund Sutar_Resume.2db4eb3a4b7ab0a53503.pdf",
     "static/media/FilmPedia - Movie Database.png": "/website/static/media/FilmPedia - Movie Database.17a5240cd28a28daaae1.png",
+    "static/media/ATM Card Generator.png": "/website/static/media/ATM Card Generator.6c35e16f9ce996bc7c09.png",
     "static/media/MyPhoto2.avif": "/website/static/media/MyPhoto2.37be4f8aadcd4b99b331.avif",
     "static/media/Useless Facts.jpeg": "/website/static/media/Useless Facts.4e9ab07fac82ab932566.jpeg",
     "static/media/Tic Tac Toe.png": "/website/static/media/Tic Tac Toe.68a9aa509fb4b773429b.png",
     "static/media/projectPreview.jpeg": "/website/static/media/projectPreview.c020a155be4d46510180.jpeg",
     "static/media/Wordle-Clone.png": "/website/static/media/Wordle-Clone.826229974f67dfd142b8.png",
     "index.html": "/website/index.html",
-    "main.3e98fb31.css.map": "/website/static/css/main.3e98fb31.css.map",
-    "main.9e63b679.js.map": "/website/static/js/main.9e63b679.js.map"
+    "main.55cabd7c.css.map": "/website/static/css/main.55cabd7c.css.map",
+    "main.4c5314be.js.map": "/website/static/js/main.4c5314be.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e98fb31.css",
-    "static/js/main.9e63b679.js"
+    "static/css/main.55cabd7c.css",
+    "static/js/main.4c5314be.js"
   ]
 }
