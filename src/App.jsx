@@ -9,6 +9,7 @@ import Project from "./Components/Project";
 import ProjectPage from "./Components/ProjectPage";
 import Skill from "./Components/Skill";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { useToggleStore } from "./store/storage";
 
 // project screenshots
 import movieArchive from "./img/project/FilmPedia - Movie Database.png";
@@ -18,22 +19,11 @@ import wordle from "./img/project/Wordle-Clone.png";
 import pinpong from "./img/project/Ping Pong Game.png";
 import uselessfacts from "./img/project/Useless Facts.jpeg";
 import atmcard from "./img/project/ATM Card Generator.png";
-import { Redirect } from "react-router-dom";
-
-const RedirectComponent = () => {
-	const location = useLocation();
-
-	// Check if the current pathname ends with "/my-projects#about"
-	if (location.pathname.endsWith("/my-projects#about")) {
-		// Redirect to "/website#about"
-		return <Navigate to="/website#about" replace />;
-	}
-
-	// If the condition is not met, render the child routes
-	return <Contact />;
-};
+import HeaderResponsive from "./Components/HeaderResponsive";
 
 function App() {
+	const { isToggled, toggle } = useToggleStore();
+
 	const projectImageArray = [
 		{
 			photo: movieArchive,
@@ -82,6 +72,7 @@ function App() {
 	return (
 		<>
 			<Header />
+			{isToggled && <HeaderResponsive />}
 			<Routes>
 				<Route
 					path="/"
@@ -112,8 +103,6 @@ function App() {
 						</>
 					}
 				/>
-
-				
 			</Routes>
 		</>
 	);

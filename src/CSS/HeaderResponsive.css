@@ -1,0 +1,14 @@
+@media only screen and (max-width : 650px) {
+    .navbar-responsive-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navbar-responsive-container .navbar-ele {
+        width: 87vw;
+        margin: 10px 0px;
+        /* margin-left: 20px; */
+    }
+}
