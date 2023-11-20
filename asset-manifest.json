@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.2e274af3.css",
-    "main.js": "/website/static/js/main.1b7c8bbe.js",
+    "main.css": "/website/static/css/main.7779ce75.css",
+    "main.js": "/website/static/js/main.7fc72486.js",
     "static/media/Pokedex.png": "/website/static/media/Pokedex.0d575c37eb62de6c682b.png",
     "static/media/Mukund Sutar_Resume.pdf": "/website/static/media/Mukund Sutar_Resume.2db4eb3a4b7ab0a53503.pdf",
     "static/media/FilmPedia - Movie Database.png": "/website/static/media/FilmPedia - Movie Database.17a5240cd28a28daaae1.png",
@@ -11,12 +11,13 @@
     "static/media/Tic Tac Toe.png": "/website/static/media/Tic Tac Toe.68a9aa509fb4b773429b.png",
     "static/media/projectPreview.jpeg": "/website/static/media/projectPreview.c020a155be4d46510180.jpeg",
     "static/media/Wordle-Clone.png": "/website/static/media/Wordle-Clone.826229974f67dfd142b8.png",
+    "static/media/blob.svg": "/website/static/media/blob.ab399edda0099dda421d.svg",
     "index.html": "/website/index.html",
-    "main.2e274af3.css.map": "/website/static/css/main.2e274af3.css.map",
-    "main.1b7c8bbe.js.map": "/website/static/js/main.1b7c8bbe.js.map"
+    "main.7779ce75.css.map": "/website/static/css/main.7779ce75.css.map",
+    "main.7fc72486.js.map": "/website/static/js/main.7fc72486.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e274af3.css",
-    "static/js/main.1b7c8bbe.js"
+    "static/css/main.7779ce75.css",
+    "static/js/main.7fc72486.js"
   ]
 }
