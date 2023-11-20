@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.c13de3f3.css",
+    "main.css": "/website/static/css/main.d5d18fd7.css",
     "main.js": "/website/static/js/main.7ad41502.js",
     "static/media/Pokedex.png": "/website/static/media/Pokedex.0d575c37eb62de6c682b.png",
     "static/media/Mukund Sutar_Resume.pdf": "/website/static/media/Mukund Sutar_Resume.2db4eb3a4b7ab0a53503.pdf",
@@ -12,11 +12,11 @@
     "static/media/projectPreview.jpeg": "/website/static/media/projectPreview.c020a155be4d46510180.jpeg",
     "static/media/Wordle-Clone.png": "/website/static/media/Wordle-Clone.826229974f67dfd142b8.png",
     "index.html": "/website/index.html",
-    "main.c13de3f3.css.map": "/website/static/css/main.c13de3f3.css.map",
+    "main.d5d18fd7.css.map": "/website/static/css/main.d5d18fd7.css.map",
     "main.7ad41502.js.map": "/website/static/js/main.7ad41502.js.map"
   },
   "entrypoints": [
-    "static/css/main.c13de3f3.css",
+    "static/css/main.d5d18fd7.css",
     "static/js/main.7ad41502.js"
   ]
 }
