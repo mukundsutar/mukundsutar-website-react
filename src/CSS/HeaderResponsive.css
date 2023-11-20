@@ -11,4 +11,9 @@
         margin: 10px 0px;
         /* margin-left: 20px; */
     }
+
+
+    .navbar-responsive-container a{
+        text-decoration: none;
+    }
 }

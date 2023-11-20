@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/Skill.css";
+import SkillCard from "./SkillCard";
 
 export default function Skill() {
 	const skillSet = [
@@ -26,11 +27,14 @@ export default function Skill() {
 			<div id="skill" className="skill-container">
 				What I know:
 				<br />
-				<div className="skill-ele">
+				{/* <div className="skill-ele">
 					{Array.from({ length: skillSet.length }, (_, index) => (
 						<span key={index}>{skillSet[index]}&nbsp; &nbsp; </span>
 					))}
-				</div>
+				</div> */}
+				{Array.from({ length: 4 }, (_, index) => (
+					<SkillCard />
+				))}
 			</div>
 		</>
 	);

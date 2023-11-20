@@ -19,7 +19,8 @@ import wordle from "./img/project/Wordle-Clone.png";
 import pinpong from "./img/project/Ping Pong Game.png";
 import uselessfacts from "./img/project/Useless Facts.jpeg";
 import atmcard from "./img/project/ATM Card Generator.png";
-import HeaderResponsive from "./Components/HeaderResponsive";
+import HeaderResponsive from "./Responsive/HeaderResponsive";
+
 
 function App() {
 	const { isToggled, toggle } = useToggleStore();
