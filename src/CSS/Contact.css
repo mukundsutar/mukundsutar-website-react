@@ -1,4 +1,4 @@
-.contact-container{
+.contact-container {
     display: flex;
     flex-direction: column;
 
@@ -11,7 +11,30 @@
     color: #ef8354;
 }
 
-.contact-ele{
-    font-size: 20px;
+.contact-ele {
+    width: max-content;
+
+    font-size: 23px;
     color: initial;
+}
+
+.contact-ele span {
+    font-size: 30px;
+}
+
+.contact-tooltip-style {
+    border-radius: 50%;
+}
+
+@media only screen and (max-width : 650) {
+    .contact-ele {
+        width: 80%;
+    
+        font-size: 10px;
+        color: initial;
+    }
+    
+    .contact-ele span {
+        font-size: 10px;
+    }
 }

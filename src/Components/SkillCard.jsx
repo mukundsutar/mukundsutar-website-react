@@ -39,8 +39,6 @@ export default function SkillCard({ type, title }) {
 
 	const design = ["Adobe After Effects", "Adobe Photoshop", "Blender"];
 
-	const cssName = "";
-
 	const checkSkill = (ele) => {
 		switch (ele) {
 			case "JavaScript":
@@ -68,7 +66,9 @@ export default function SkillCard({ type, title }) {
 				<div className="skill-title">{title}</div>
 				<div className="skill-ele">
 					{type.map((ele, index) => (
-						<span className={`${checkSkill(ele)}`}>{ele}</span>
+						<span className={`${checkSkill(ele)}`} key={index}>
+							{ele}
+						</span>
 					))}
 				</div>
 			</div>

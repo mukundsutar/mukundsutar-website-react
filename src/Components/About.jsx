@@ -13,12 +13,16 @@ export default function About() {
 			<div id="about" className="about-container">
 				{isDesktopOrLaptop && (
 					<p>
-						Hello there! I'm Mukund Sutar, a passionate Developer
-						with a deep love for DSA. When I'm not immersed in code,
-						you'll often find me exploring the captivating worlds of
-						Sci-fi movies, taking on the role of a part-time gamer,
-						and indulging in my other great love - all things
+						Hello there!
+						<br />
+						<br />
+						I'm Mukund Sutar, a passionate Developer with a deep
+						love for DSA. When I'm not immersed in code, you'll
+						often find me exploring the captivating worlds of Sci-fi
+						movies, taking on the role of a part-time gamer, and
+						indulging in my other great love - all things
 						automotive.
+						<br />
 						<br />
 						Based in Pune, India, I'm a dedicated Software Engineer
 						on a mission to craft digital experiences that delight
@@ -28,7 +32,11 @@ export default function About() {
 
 				{isTabletOrMobile && (
 					<p>
-						Hello There! I'm Mukund Sutar, a devoted Developer with a passion for DSA. When not coding, I enjoy Sci-fi movies, gaming, and all things automotive. Based in Pune, India, I'm a dedicated Software Engineer crafting inspiring digital experiences.
+						Hello There! I'm Mukund Sutar, a devoted Developer with
+						a passion for DSA. When not coding, I enjoy Sci-fi
+						movies, gaming, and all things automotive. Based in
+						Pune, India, I'm a dedicated Software Engineer crafting
+						inspiring digital experiences.
 					</p>
 				)}
 			</div>

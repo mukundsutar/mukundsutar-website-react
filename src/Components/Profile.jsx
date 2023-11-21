@@ -19,7 +19,7 @@ export default function Profile() {
 					</div>
 				)}
 
-				<img classname="profile-photo" src={profilePhoto} alt="" />
+				<img className="profile-photo" src={profilePhoto} alt="" />
 			</div>
 		</>
 	);

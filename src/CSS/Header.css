@@ -39,7 +39,7 @@
 @media only screen and (max-width : 1224px) {
     .navbar-container{
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
     }
 
     .navbar-name {
