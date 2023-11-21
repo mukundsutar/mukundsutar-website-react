@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.7779ce75.css",
-    "main.js": "/website/static/js/main.a0f643fb.js",
+    "main.js": "/website/static/js/main.c4dc5a0f.js",
     "static/media/Pokedex.png": "/website/static/media/Pokedex.0d575c37eb62de6c682b.png",
     "static/media/Mukund_Sutar.pdf": "/website/static/media/Mukund_Sutar.b5f0d4c7521fc5227d00.pdf",
     "static/media/FilmPedia - Movie Database.png": "/website/static/media/FilmPedia - Movie Database.17a5240cd28a28daaae1.png",
@@ -14,10 +14,10 @@
     "static/media/blob.svg": "/website/static/media/blob.ab399edda0099dda421d.svg",
     "index.html": "/website/index.html",
     "main.7779ce75.css.map": "/website/static/css/main.7779ce75.css.map",
-    "main.a0f643fb.js.map": "/website/static/js/main.a0f643fb.js.map"
+    "main.c4dc5a0f.js.map": "/website/static/js/main.c4dc5a0f.js.map"
   },
   "entrypoints": [
     "static/css/main.7779ce75.css",
-    "static/js/main.a0f643fb.js"
+    "static/js/main.c4dc5a0f.js"
   ]
 }
