@@ -9,6 +9,7 @@
     padding: 20px;
 
     background-color: #448cce;
+    /* background-color: #448cce; */
     border-radius: 10px;
     color: #e6e6e9;
 }
@@ -21,9 +22,6 @@
 .skill-ele {
     display: flex;
     flex-wrap: wrap;
-
-    /* border: 1px solid black; */
-    background-color: #448cce;
 }
 
 .skill-ele span {
@@ -37,30 +35,37 @@
     color: #e6e6e9;
 }
 
-.java{
-    
+.javascript {
+    box-shadow: 0px 0px 9px 0px rgba(240, 219, 79, 0.9);
+    border: 1px solid rgba(240, 219, 79, 1);
 }
 
-.react{
-
+.react {
+    box-shadow: 0px 0px 9px 0px rgba(101, 221, 251, 0.902);
+    border: 1px solid rgba(101, 221, 251, 1);
 }
 
-.node{
-
+.node {
+    box-shadow: 0px 0px 9px 0px rgba(66, 139, 64, 0.9);
+    border: 1px solid rgba(66, 139, 64, 1);
 }
 
-.express{
-
+.express {
+    box-shadow: 0px 0px 9px 0px rgba(58, 58, 56, 1);
+    border: 1px solid rgba(58, 58, 56, 1);
 }
 
-.mongo{
-
+.mongo {
+    box-shadow: 0px 0px 9px 0px rgba(0, 122, 87, 0.9);
+    border: 1px solid rgba(0, 122, 87, 1);
 }
 
-.rest{
-
+.rest {
+    box-shadow: 0px 0px 9px 0px rgba(65, 4, 126, 1);
+    border: 1px solid rgba(65, 4, 126, 1);
 }
 
-.git{
-
+.git {
+    box-shadow: 0px 0px 9px 0px rgba(219, 29, 96, 1);
+    border: 1px solid rgba(219, 29, 96, 1);
 }

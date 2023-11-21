@@ -44,7 +44,7 @@ export default function SkillCard({ type, title }) {
 	const checkSkill = (ele) => {
 		switch (ele) {
 			case "JavaScript":
-				return "java";
+				return "javascript";
 			case "React.js":
 				return "react";
 			case "Node.js":
