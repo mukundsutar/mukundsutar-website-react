@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/Header.css";
 import { HashLink } from "react-router-hash-link";
-import Resume from "../docs/Mukund Sutar_Resume.pdf";
+import Resume from "../docs/Mukund_Sutar.pdf";
 import { useMediaQuery } from "react-responsive";
 import { useToggleStore } from "../store/storage";
 

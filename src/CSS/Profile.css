@@ -11,6 +11,14 @@
 
 .profile-photo {
     height: 100%;
+
+    mask-image: url(../img/blob.svg);
+    mask-repeat: no-repeat;
+
+    -webkit-mask-image: url(../img/blob.svg);
+  mask-image: url(../img/blob.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;  
 }
 
 .profile-name {
@@ -24,4 +32,18 @@
 
 .profile-name span {
     font-size: 60px;
+}
+
+@media only screen and (max-width : 650px) {
+    .profile-container{
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 100%;
+    }
+
+    .profile-container img{
+        max-width: 100%;
+        max-height: 100%;
+    }
 }

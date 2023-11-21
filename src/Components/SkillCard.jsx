@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "../CSS/SkillCard.css";
 
-export default function SkillCard() {
-  const skillSet = [
+export default function SkillCard({ type, title }) {
+	const skillSet = [
 		"Java",
 		"Python",
 		"C",
@@ -20,27 +21,56 @@ export default function SkillCard() {
 		"Postman",
 	];
 
-  const progLang=["Java",
-  "Python",
-  "C",
-  "C++",]
+	const progLang = ["Java", "Python", "C", "C++"];
 
-  const web=["HTML",
-  "CSS",
-  "JavaScript",
-  "React.js",
-  "Node.js",
-  "Express.js",
-  "Bootstrap",]
+	const web = [
+		"HTML",
+		"CSS",
+		"JavaScript",
+		"React.js",
+		"Node.js",
+		"Express.js",
+		"Bootstrap",
+	];
 
-  const db=["MySQL",
-  "MongoDB",]
+	const db = ["MySQL", "MongoDB"];
+
+	const tool = ["REST API", "Git", "Postman", "Visual Studio Code"];
+
+	const design = ["Adobe After Effects", "Adobe Photoshop", "Blender"];
+
+	const cssName = "";
+
+	const checkSkill = (ele) => {
+		switch (ele) {
+			case "JavaScript":
+				return "java";
+			case "React.js":
+				return "react";
+			case "Node.js":
+				return "node";
+			case "Express.js":
+				return "express";
+			case "MongoDB":
+				return "mongo";
+			case "REST API":
+				return "rest";
+			case "Git":
+				return "git";
+			default:
+				return "";
+		}
+	};
 
 	return (
 		<>
-			<div className="skill-card-container">
-				<div className="skill-title"></div>
-				<div className="skill-ele"></div>
+			<div className="skill-card">
+				<div className="skill-title">{title}</div>
+				<div className="skill-ele">
+					{type.map((ele, index) => (
+						<span className={`${checkSkill(ele)}`}>{ele}</span>
+					))}
+				</div>
 			</div>
 		</>
 	);

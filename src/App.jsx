@@ -21,7 +21,6 @@ import uselessfacts from "./img/project/Useless Facts.jpeg";
 import atmcard from "./img/project/ATM Card Generator.png";
 import HeaderResponsive from "./Responsive/HeaderResponsive";
 
-
 function App() {
 	const { isToggled, toggle } = useToggleStore();
 

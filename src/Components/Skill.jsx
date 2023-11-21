@@ -3,11 +3,9 @@ import "../CSS/Skill.css";
 import SkillCard from "./SkillCard";
 
 export default function Skill() {
-	const skillSet = [
-		"Java",
-		"Python",
-		"C",
-		"C++",
+	const progLang = ["Java", "Python", "C", "C++"];
+
+	const web = [
 		"HTML",
 		"CSS",
 		"JavaScript",
@@ -15,12 +13,13 @@ export default function Skill() {
 		"Node.js",
 		"Express.js",
 		"Bootstrap",
-		"MySQL",
-		"MongoDB",
-		"REST API",
-		"Git",
-		"Postman",
 	];
+
+	const db = ["MySQL", "MongoDB", "JSON"];
+
+	const tool = ["REST API", "Git", "Postman", "Visual Studio Code"];
+
+	const design = ["Adobe After Effects", "Adobe Photoshop", "Blender"];
 
 	return (
 		<>
@@ -32,9 +31,16 @@ export default function Skill() {
 						<span key={index}>{skillSet[index]}&nbsp; &nbsp; </span>
 					))}
 				</div> */}
-				{Array.from({ length: 4 }, (_, index) => (
-					<SkillCard />
-				))}
+				<div className="skill-card-container">
+					<SkillCard type={web} title={"Web Developer"} />
+					<SkillCard
+						type={progLang}
+						title={"Programming Languages"}
+					/>
+					<SkillCard type={tool} title={"Dev Tools"} />
+					<SkillCard type={db} title={"Database"} />
+					<SkillCard type={design} title={"Design"} />
+				</div>
 			</div>
 		</>
 	);
