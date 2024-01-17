@@ -4,6 +4,12 @@
           @license MIT
           */
 
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -52,6 +58,8 @@ PERFORMANCE OF THIS SOFTWARE.
 /*! react */
 
 /*! react-is */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 
 /*! shallow-equal */
 
