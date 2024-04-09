@@ -22,7 +22,7 @@ export default function Header() {
     return (
         <>
             {isDesktopOrLaptop && (
-                <div className="navbar-container">
+                <div className="navbar-container" style={{zIndex:"10"}}>
                     <HashLink smooth to="#">
                         <div className="navbar-ele header-button">Home</div>
                     </HashLink>
@@ -64,7 +64,7 @@ export default function Header() {
             )}
 
             {isTabletOrMobile && (
-                <div className="navbar-container">
+                <div className="navbar-container" style={{zIndex:"10"}}>
                     <HashLink smooth to="#" onClick={toggle}>
                         <div className="navbar-ele header-button">
                             <svg
