@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/website/static/css/main.6754777e.css",
-    "main.js": "/website/static/js/main.811cbd16.js",
+    "main.js": "/website/static/js/main.0b1cd657.js",
     "static/media/Pokedex.png": "/website/static/media/Pokedex.0d575c37eb62de6c682b.png",
-    "static/media/Mukund_Sutar.pdf": "/website/static/media/Mukund_Sutar.ede4be421d83923c0670.pdf",
+    "static/media/Mukund_Sutar.pdf": "/website/static/media/Mukund_Sutar.0dd52ebd3e6c33ef0b36.pdf",
     "static/media/FilmPedia - Movie Database.png": "/website/static/media/FilmPedia - Movie Database.17a5240cd28a28daaae1.png",
     "static/media/ATM Card Generator.png": "/website/static/media/ATM Card Generator.6c35e16f9ce996bc7c09.png",
     "static/media/MyPhoto2.avif": "/website/static/media/MyPhoto2.37be4f8aadcd4b99b331.avif",
@@ -14,10 +14,10 @@
     "static/media/blob.svg": "/website/static/media/blob.ab399edda0099dda421d.svg",
     "index.html": "/website/index.html",
     "main.6754777e.css.map": "/website/static/css/main.6754777e.css.map",
-    "main.811cbd16.js.map": "/website/static/js/main.811cbd16.js.map"
+    "main.0b1cd657.js.map": "/website/static/js/main.0b1cd657.js.map"
   },
   "entrypoints": [
     "static/css/main.6754777e.css",
-    "static/js/main.811cbd16.js"
+    "static/js/main.0b1cd657.js"
   ]
 }
