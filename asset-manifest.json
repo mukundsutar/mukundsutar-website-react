@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.6754777e.css",
-    "main.js": "/website/static/js/main.0b1cd657.js",
+    "main.css": "/website/static/css/main.c6b70afd.css",
+    "main.js": "/website/static/js/main.7f878b99.js",
     "static/media/Pokedex.png": "/website/static/media/Pokedex.0d575c37eb62de6c682b.png",
     "static/media/Mukund_Sutar.pdf": "/website/static/media/Mukund_Sutar.0dd52ebd3e6c33ef0b36.pdf",
     "static/media/FilmPedia - Movie Database.png": "/website/static/media/FilmPedia - Movie Database.17a5240cd28a28daaae1.png",
@@ -13,11 +13,11 @@
     "static/media/Wordle-Clone.png": "/website/static/media/Wordle-Clone.826229974f67dfd142b8.png",
     "static/media/blob.svg": "/website/static/media/blob.ab399edda0099dda421d.svg",
     "index.html": "/website/index.html",
-    "main.6754777e.css.map": "/website/static/css/main.6754777e.css.map",
-    "main.0b1cd657.js.map": "/website/static/js/main.0b1cd657.js.map"
+    "main.c6b70afd.css.map": "/website/static/css/main.c6b70afd.css.map",
+    "main.7f878b99.js.map": "/website/static/js/main.7f878b99.js.map"
   },
   "entrypoints": [
-    "static/css/main.6754777e.css",
-    "static/js/main.0b1cd657.js"
+    "static/css/main.c6b70afd.css",
+    "static/js/main.7f878b99.js"
   ]
 }

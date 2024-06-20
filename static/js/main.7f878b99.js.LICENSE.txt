@@ -4,6 +4,13 @@
           @license MIT
           */
 
+/*
+* React Tooltip
+* {@link https://github.com/ReactTooltip/react-tooltip}
+* @copyright ReactTooltip Team
+* @license MIT
+*/
+
 /*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
@@ -58,8 +65,6 @@ PERFORMANCE OF THIS SOFTWARE.
 /*! react */
 
 /*! react-is */
-
-/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 
 /*! shallow-equal */
 
